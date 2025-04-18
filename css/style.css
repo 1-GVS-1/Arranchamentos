@@ -1,0 +1,101 @@
+/* css/style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  main {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  h1 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    background: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  /* Estilos para tabelas de cada dia */
+  .day-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+  }
+  
+  .day-table caption {
+    caption-side: top;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+  }
+  
+  .day-table, .day-table th, .day-table td {
+    border: 1px solid #ccc;
+  }
+  
+  .day-table th, .day-table td {
+    padding: 0.5rem;
+    text-align: left;
+  }
+
+  /* css/style.css */
+/* Adiciona estilos para admin */
+#filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+#resultado {
+  margin-top: 1rem;
+}
+#relatorioTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+#relatorioTable th, #relatorioTable td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: left;
+}
+#btnExportarPDF {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background: #28a745;
+  color: #fff;
+  cursor: pointer;
+}
+#btnExportarPDF:hover {
+  background: #218838;
+}
